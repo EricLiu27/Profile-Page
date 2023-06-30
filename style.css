@@ -1,0 +1,102 @@
+.parallax {
+    /* The image used */
+    background-image: url(./images/boardgames.jpeg);
+
+    /* Set a specific height */
+    min-height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 640px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 1024px;
+    --bs-breakpoint-xl: 1280px;
+    --bs-breakpoint-xxl: 1536px;
+}
+
+#pic {
+    height: 10rem;
+    width: 15rem;
+}
+
+@media (min-width: 640px) {
+    #container2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* #carouselExampleIndicators {
+        height:100%;
+        width: 100%;
+
+    } */
+
+.carousel-inner{
+    height: 510px;
+    width: 250px;
+}
+
+
+
+}
+
+    #container3 {
+        margin-top: 100px;
+        margin-right: 20px;
+
+    }
+
+
+
+
+@media (min-width: 768px) {
+
+    #parallax2 {
+        background-image: url(./images/vietnam.jpeg);
+
+
+        /* Set a specific height */
+        min-height: 350px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .carousel-inner{
+        height: 440px;
+        width: 300px;
+    }
+}
+@media (min-width: 991px) {
+    .carousel-inner{
+        height: 370px;
+        width: 300px;
+    }
+}
+@media (min-width: 1024px) {
+    .carousel-inner{
+        height: 400px;
+        width: 400px;
+       
+    }
+    .carousel{
+        margin-top: 10px;
+    }
+
+
+
+}
+
+/* @media (min-width: 640px) {} */
