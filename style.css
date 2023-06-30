@@ -27,8 +27,8 @@
     width: 9rem;
 }
 
-.carousel-inner{
-    height: 40d0px;
+.carousel-inner {
+    height: 400px;
     width: 325px;
 }
 
@@ -38,6 +38,7 @@
 
 }
 
+/* ------- 640 media query ------- */
 @media (min-width: 640px) {
     #container2 {
         display: flex;
@@ -52,17 +53,27 @@
 
     } */
 
-.carousel-inner{
-    height: 510px;
-    width: 250px;
+    .carousel-inner {
+        height: 510px;
+        width: 250px;
+    }
+
+    #pic {
+        height: 10rem;
+        width: 15rem;
+    }
+
+    #container3 {
+        margin-top: 100px;
+        margin-right: 20px;
+
+    }
+
 }
 
 
-}
 
-
-
-
+/* -------- 768 media query------ */
 
 @media (min-width: 768px) {
 
@@ -79,29 +90,64 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         height: 440px;
         width: 300px;
     }
-}
-@media (min-width: 991px) {
-    .carousel-inner{
-        height: 370px;
-        width: 300px;
+
+    #pic {
+        height: 15rem;
+        width: 20rem;
     }
 }
+
+/* -------- 991 media query------ */
+@media (min-width: 991px) {
+    .carousel-inner {
+        height: 390px;
+        width: 290px;
+    }
+
+    #container3 {
+        margin-top: 150px;
+        margin-right: 20px;
+
+    }
+}
+
+/* -------- 1024 media query------ */
 @media (min-width: 1024px) {
-    .carousel-inner{
+    .carousel-inner {
         height: 400px;
         width: 400px;
-       
+
     }
-    .carousel{
+
+    .carousel {
         margin-top: 10px;
     }
 
+    #pic {
+        height: 15rem;
+        width: 28rem;
+    }
 
+    #container3 {
+        margin-top: 108px;
+        margin-right: 20px;
+
+    }
 
 }
 
-/* @media (min-width: 640px) {} */
+/* -------- 1280 media query------ */
+@media (min-width: 1280px) {
+
+    .carousel-inner {
+        height: 370px;
+        width: 400px;
+
+    }
+
+}
