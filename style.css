@@ -24,7 +24,18 @@
 
 #pic {
     height: 10rem;
-    width: 15rem;
+    width: 9rem;
+}
+
+.carousel-inner{
+    height: 40d0px;
+    width: 325px;
+}
+
+#container3 {
+    margin-top: 50px;
+    margin-right: 20px;
+
 }
 
 @media (min-width: 640px) {
@@ -47,14 +58,8 @@
 }
 
 
-
 }
 
-    #container3 {
-        margin-top: 100px;
-        margin-right: 20px;
-
-    }
 
 
 
